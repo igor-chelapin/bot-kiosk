@@ -1,0 +1,60 @@
+# Секреты и токены
+.env
+*.env
+.env.*
+!.env.example
+config_local.py
+secrets.py
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+myenv/
+.venv
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Логи
+*.log
+logs/
+bot.log
+
+# Бэкапы
+backup/
+*.bak
+*.backup
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы тестов
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Временные файлы
+*.tmp
+*.temp
+*~
